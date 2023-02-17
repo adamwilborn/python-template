@@ -1,3 +1,5 @@
 [flake8]
 exclude =
     docs/conf.py,
+ignore = E211, E999, F401, F821, W503
+max-doc-length = 72
